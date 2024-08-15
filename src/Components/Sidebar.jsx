@@ -47,7 +47,7 @@ export const Sidebar=({isOpen,setIsOpen})=>{
 
 
 
-    return(<div className={`transform ease-in-out  transition-all duration-300 ${isOpen? `translate-x-0` : `max-sm:-translate-x-40`} max-sm:fixed flex items-center justify-center bg-transparent`}>
+    return(<div className={ `transform ease-in-out  transition-all duration-300 ${isOpen? `translate-x-0` : `max-sm:-translate-x-40`} max-sm:fixed flex items-center justify-center bg-transparent`}>
         <div className={`flex flex-col  items-start max-w-[200px]  gap-8 h-[70vH]  py-14  border-r border-primaryColor `}>
 
             {sidebarItems.map((item)=>(

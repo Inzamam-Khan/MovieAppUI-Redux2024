@@ -20,10 +20,10 @@ getSeries(page)
     },[searchTerm,page])
 
     return(
-        <container className='flex relative flex-col flex-1  min-w-[85.5vW] sm:mx-6 '>
+        <container className='flex  flex-col flex-1  min-w-[85.5vW] sm:mx-6 '>
                 
                 
-                <div className="fixed  flex min-w-[87.5vW] bg-transparent  justify-between items-center max-sm:ml-5 z-40">
+                <div className="fixed  flex min-w-[86.5vW] bg-transparent  justify-between items-center max-sm:ml-5 z-40">
                 
                 <FaArrowAltCircleLeft onClick={()=>setPage(page=>page-1)}  className={`${page>1 ? `` : `invisible`} rounded-full cursor-pointer` }/>
                 
